@@ -1,0 +1,116 @@
+/*******tic-tac-toe******/
+
+#tic-tac-toe {
+	text-transform: uppercase; 
+	font-size:25px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#tic-tac-toe #game td {
+	border: 1px solid #000;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	/**float:left;**/ 
+	/**padding:0;**/
+	/**padding:0;**/ 
+	/**list-style:none;**/ 
+	text-align:center; 
+	margin-bottom:20px; 
+	color:#000; 
+	height:60px; 
+	line-height:60px; 
+	font-size:40px; 
+	/** color:#000; */
+}
+
+
+
+table {
+	border-collapse: collapse;
+	/** position: absolute; */
+	/** left: 50%; */
+	/**margin-left: -155px;*/
+	top: 100px;
+}
+
+table tr:first-child td {
+	border-top: 0px;
+}
+
+#tic-tac-toe #game td {
+	color:#000;
+}
+
+#tic-tac-toe #game {
+	float:0; 
+	padding:0; 
+	clear:both
+}
+
+.new_span {
+	width:226px;
+}
+
+#tic-tac-toe #reset {
+	color:#000; 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:25px;
+	clear:both; 
+	cursor: pointer;
+	float:left;
+	text-align:center; 
+	text-transform:uppercase; 
+	outline: solid; 
+	width:204px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+.input-prepend span.pre_text {
+	width:55px;
+}
+
+.input-prepend .span1{
+	width:93px;
+}
+
+.input-prepend {
+	margin-bottom:10px;
+}
+
+.clr {
+	clear:both; 
+	height:0
+}
+
+#tic-tac-toe h1 {
+	text-align:center; 
+	font-size:28px;
+}
+
+#tic-tac-toe td::-moz-selection {
+	background:none;
+	color:#fff;
+}
+
+#tic-tac-toe td::-webkit-selection {
+	background:none;
+	color:#000;
+}
+
+#tic-tac-toe {
+	width:220px; 
+	margin:0 auto
+}
+
+.input-append .win_times {
+	background:#fff; 
+	width:101px;
+}
+
+.input-append .win_text {
+	width:52px;
+}
+
+/*******tic-tac-toe END******/

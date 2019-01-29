@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+	<head>
+		
+		<meta charset="UTF-8">
+		<title>Tic Tac Toe game</title>
+		<link rel='stylesheetprefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div id="tic-tac-toe">
+			<div class="span3 new_span">
+				<div class="row">
+					<h1 class="span3">Tic Tac Toe</h1>
+						<div class="span3">
+							<div class="input-prepend input-append">
+								<span class="add-on win_text">O won</span>
+								<strong id="o_win" class="win_times add-on">0</strong>
+								<span class="add-on">time(s)</span>
+							</div>
+							<div class="input-prepend input-append">
+								<span class="add-on win_text">X won</span>
+								<strong id="x_win" class="win_times add-on">0</strong>
+								<span class="add-on">time(s)</span>
+							</div>
+						</div>
+				</div>
+				<table>
+					<tr class="row" id="game">
+						<td id="one" class="btn span1" ></td>
+						<td id="two" class="btn span1"></td>
+						<td id="three" class="btn span1"></td>
+					</tr>
+					<tr class="row" id="game">
+						<td id="four" class="btn span1" ></td>
+						<td id="five" class="btn span1"></td>
+						<td id="six" class="btn span1"></td>
+					</tr>
+					<tr class="row" id="game">
+						<td id="seven" class="btn span1" ></td>
+						<td id="eight" class="btn span1"></td>
+						<td id="nine" class="btn span1"></td>
+					</tr>
+				</table>
+				
+	
+				<div class="clr">&nbsp;</div>
+				<div class="row"><a href="#" id="reset" class="btn btn-outline-success" >Restart</a></div>
+				<!-- </div>-->
+		</div>
+
+		<!--><script src='https://code.jquery.com/jquery-1.7.2.min.js'></script></!-->
+		<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
